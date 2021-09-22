@@ -1,0 +1,23 @@
+site_name: MicEye
+nav:
+    - Getting started: index.md
+    - Installation: installation.md
+    - Data collection: data_collection.md
+    - Post process: post_process.md
+    - Medical image DL example: deep_learning.md
+    - Natural image DL example: deep_learning_example1.md
+    - About: about.md
+# theme:
+#     name: material
+#     palette:
+#         - scheme: default
+#           toggle:
+#               icon: material/toggle-switch-off-outline
+#               name: Switch to dark mode
+#         - scheme: slate
+#           toggle:
+#               icon: material/toggle-switch
+#               name: Switch to light mode
+theme:
+    name: readthedocs
+    nav_style: dark
