@@ -1,0 +1,11 @@
+{
+  "image folder": "C:\\Users\\Sheng Wang\\Documents\\GitHub\\MicEye2.0\\data\\OAI-data",
+  "save log to": "./testmylogs",
+  "random display order": true,
+  "image height": 800,
+  "loading wait": 10,
+  "font": "Helvetica",
+  "dark mode": true,
+  "insta review": true,
+  "guide mode": false
+}
