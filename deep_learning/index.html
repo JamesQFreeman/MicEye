@@ -65,9 +65,11 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Medical image DL example</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#example-1">Example 1</a>
+    <li class="toctree-l2"><a class="reference internal" href="#human-attention-guide-network-attention">Human attention guide network attention</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#example-2">Example 2</a>
+    <li class="toctree-l2"><a class="reference internal" href="#multi-task">Multi-task</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#reference">Reference</a>
     </li>
     </ul>
                     </li>
@@ -113,10 +115,23 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="deep-learning">Deep learning</h1>
-<p>Here we introduce two "static heatmap" methods, which means we do not take the order of the gaze into consideration.</p>
-<h2 id="example-1">Example 1</h2>
-<h2 id="example-2">Example 2</h2>
+                <h1 id="deep-learning-examples">Deep learning examples</h1>
+<p>In this page, we introduce how to utilize the collected gaze in deep learning tasks. Here we introduce two "static heatmap" methods, which means we do not take the order of the gaze into consideration.</p>
+<h2 id="human-attention-guide-network-attention">Human attention guide network attention</h2>
+<p>We implement a simple yet effective deep learning solution for utilizing the guidance from the radiologist’s gaze. We demonstrate that the extra supervision from expert gaze can improve accuracy, robustness and interpretability of the CAD system. You can read our paper and code for more detail. In short, we force the network to look at area where radiologist looked.</p>
+<p><img alt="image-20210923151706030" src="../img/guided_attention.png" /></p>
+<h2 id="multi-task">Multi-task</h2>
+<p>Karargyris et al.[1] offers a multi-task framework to utlize eye gaze information as the following figure demonstrated. The backbone have two task: 1. classfication and 2. predict human visual attention. Similiar framework can also be found at [2] where they use mouse instead of eye gaze.</p>
+<p><img alt="image-20210923144739581" src="../img/Karargyris.png" /></p>
+<h2 id="reference">Reference</h2>
+<ol>
+<li>
+<p>A.  Karargyris,  S.  Kashyap,  I.  Lourentzou,  J.  T.  Wu,  A.  Sharma,  M.  Tong,  S.  Abedin,D.  Beymer,  V.  Mukherjee,  E.  A.  Krupinskiet  al.,  “Creation  and  validation  of  a  chest  x-ray dataset with eye-tracking and report dictation for ai development,”Scientific data, vol. 8,no. 1, pp. 1–18, 2021.</p>
+</li>
+<li>
+<p>L.Li,M.Xu,X.Wang,L.Jiang,andH.Liu,“Attentionbasedglaucoma detection: A large-scale database and cnn model,” in <em>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</em>, 2019, pp. 10 571–10 580.</p>
+</li>
+</ol>
               
             </div>
           </div>
