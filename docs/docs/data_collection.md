@@ -10,7 +10,7 @@ python miceye.py
 
 Place all the images in a same folder, then change the "image folder" option in  ```config.json```.
 
-The data collection begin with typing the name name down. And a message is shown to the volunteers to tell them how the experiment is setted up. You can modify the message at ```main.py```.
+The data collection begin with typing the name down. And a message is shown to the volunteers to tell them how the experiment is setted up. You can modify the message at ```main.py```.
 
 ![inputname](img/inputname.gif)
 
@@ -73,6 +73,6 @@ We also provide ```config.json``` , so you can modify it.
 
 Other options should be pretty straight forward. Let me explain "insta review" and "guide mode". 
 
-As the name implies, "insta review" let you review the visualization of gaze when viewing the last image.
+- "insta review" let you review the visualization of gaze when viewing the last image.
 
-"Guide mode" display the annotation (if any) then display the image, this mode is for teaching which we are still working on.
+- "guide mode" display the annotation (if any) then display the image, this mode is for teaching which we are still working on.
