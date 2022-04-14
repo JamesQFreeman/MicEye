@@ -60,6 +60,18 @@ This red bubble is for demonstration, do not exist in real software.
 - There will be a 3D version.
 - There will be a version that support zoom and drag (coming very soon).
 
+## Citation
+
+```
+@article{wang2022follow,
+  title={Follow My Eye: Using Gaze to Supervise Computer-Aided Diagnosis},
+  author={Wang, Sheng and Ouyang, Xi and Liu, Tianming and Wang, Qian and Shen, Dinggang},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2022},
+  publisher={IEEE}
+}
+```
+
 ## Contact me
 
 Github issue or wsheng@sjtu.edu.cn
