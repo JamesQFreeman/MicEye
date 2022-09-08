@@ -4,8 +4,10 @@ nav:
     - Installation: installation.md
     - Data collection: data_collection.md
     - Post process: post_process.md
-    - Medical image DL example: deep_learning.md
+    - Medical image supervised learning: deep_learning.md
+    - Contrastive learning: contrastive_learning_example.md
     - Natural image DL example: deep_learning_example1.md
+    - Future Plan: future.md
     - About: about.md
 # theme:
 #     name: material
